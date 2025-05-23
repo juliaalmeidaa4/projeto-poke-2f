@@ -1,11 +1,15 @@
 div {
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
 }
 
 img {
     width: 100px;
     height: 80px;
-    
 }
+ 
